@@ -1,1 +1,1 @@
-sudo apt-get install -y zstd && curl -fsSL https://ollama.com/install.sh | sh && curl -fsSL https://opencode.ai/v2/install | bash && (nohup ollama serve >/dev/null 2>&1 </dev/null &) && sleep 3 && ollama pull hf.co/satgeze/Gemma4-26B-A4B-Uncensored-HauhauCS-1M-GGUF:Q4_K_M
+sudo apt-get install -y zstd && curl -fsSL https://ollama.com/install.sh | sh && curl -fsSL https://opencode.ai/v2/install | bash && (nohup ollama serve >/dev/null 2>&1 </dev/null &) && sleep 3 && ollama pull hf.co/HauhauCS/Qwen3.8-27B-Uncensored-HauhauCS-Aggressive-MTP-GGUF:IQ4_XS
